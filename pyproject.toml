@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "git-mistake"
-version = "1.0.0"
+version = "1.0.1"
 description = "AI-powered Git disaster recovery — describe your git problem, get exact fix commands"
 readme = "README.md"
 license = { text = "MIT" }
@@ -23,9 +23,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage   = "https://github.com/yourname/git-mistake"
-Repository = "https://github.com/yourname/git-mistake"
-Issues     = "https://github.com/yourname/git-mistake/issues"
+Homepage   = "https://github.com/thalha-a9/git-mistake"
+Repository = "https://github.com/thalha-a9/git-mistake"
+Issues     = "https://github.com/thalha-a9/git-mistake/issues"
 
 [project.scripts]
 git-mistake = "git_mistake.cli:main"

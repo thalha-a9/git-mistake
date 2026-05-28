@@ -19,7 +19,7 @@ def main():
     parser.add_argument("problem", nargs="?", help="Describe your git problem in plain English")
     parser.add_argument("--no-ai", action="store_true", help="Pattern matching only, no AI call")
     parser.add_argument("--context", action="store_true", help="Print current git context and exit")
-    parser.add_argument("--version", action="version", version="git-mistake 1.0.0")
+    parser.add_argument("--version", action="version", version="git-mistake 1.0.1")
 
     args = parser.parse_args()
     print_banner()
@@ -58,7 +58,7 @@ def main():
     else:
         print_error(
             "Couldn't auto-diagnose. Try running: git reflog\n"
-            "  Then open an issue at: https://github.com/yourname/git-mistake/issues"
+            "  Then open an issue at: https://github.com/thalha-a9/git-mistake/issues"
         )
         sys.exit(1)
 
